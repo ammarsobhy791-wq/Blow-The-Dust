@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:requestLegacyExternalStorage="true"
-        android:label="Blow The Dust"
-        android:icon="@drawable/ic_launcher"
+        android:label="Huawei VRP Hub"
         android:theme="@style/NormalTheme">
         <activity
             android:name=".MainActivity"
@@ -20,9 +17,3 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <meta-data
-            android:name="flutterEmbedding"
-            android:value="2"/>
-    </application>
-</manifest>
