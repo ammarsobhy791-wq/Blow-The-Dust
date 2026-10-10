@@ -32,12 +32,15 @@ class _WebViewScreenState extends State<WebViewScreen> {
     super.initState();
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://ammarsobhy791.github.io/')); // حط رابط موقعك هنا لو مختلف
+      ..setBackgroundColor(const Color(0xFF05080F))
+      ..loadRequest(Uri.parse(
+          'https://ammarsobhy791-wq.github.io/huawei-vrp-cheat-sheet/huawei-vrp-hub.html'));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFF05080F),
       body: SafeArea(
         child: WebViewWidget(controller: controller),
       ),
