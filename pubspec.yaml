@@ -1,5 +1,5 @@
-name: Blow The Dust
-description: Maganen 2 App
+name: huawei_vrp_hub
+description: Huawei VRP Command Reference by Ammar Sobhy Fadel
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.2.2
   webview_flutter: ^4.8.0
 
 flutter:
